@@ -1,0 +1,17 @@
+Job Application Automation
+
+Hi, I’m Leule Bantywalu, an Electrical Engineering student with a passion for software and systems automation. As a full-time student balancing intense coursework and career development, I built this project to automate the job application process and reduce the time spent on repetitive, manual submissions—especially when applying to dozens of roles across different platforms.
+
+#Project Overview
+
+This tool streamlines job applications by automatically filling out forms, submitting resumes, and tracking applications across various job boards. It is designed to be flexible, fast, and extendable, helping job seekers stay consistent and efficient during the application process.
+
+#Features
+
+Automated login and application submission (e.g., LinkedIn, Indeed, Handshake) Resume & cover letter auto-upload Custom job filters (title, company, location, keywords) Application tracking with timestamps Easy-to-extend modular structure #Technologies Used
+
+Python (Selenium / Playwright / BeautifulSoup) GitHub Actions (for automation) SQLite for logging application history Docker (optional for deployment) #Getting Started
+
+Clone the repo and run locally:
+
+git clone https://github.com/bantywalu/Applier.git cd job-application-automation python3 main.py Note: This is currently built for personal/local use. Future versions may include a web interface and cloud deployment.
